@@ -14,5 +14,8 @@ rect(350,50,10,250);
 beginShape();
 vertex(100,350);//top left
 vertex(500,350);//top right
-vertex(300,450);//bottom
+curveVertex(100,350);
+curveVertex(50,150);
+curveVertex(500,350);
+curveVertex(550,150);
 endShape(CLOSE);
