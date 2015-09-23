@@ -1,6 +1,6 @@
 //Name: Alex MacDonald
 // Purpose: Create curves in Processing
-
+{
 // Canvas
 size(600,600);
 fill(250,255,3);
@@ -19,3 +19,4 @@ curveVertex(500,350);
 curveVertex(100,350);
 curveVertex(50,-1000);
 endShape(CLOSE);
+}
